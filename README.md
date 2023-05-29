@@ -1,7 +1,7 @@
 # NEAT-SBDA
 ## Introduction
 NEAT-SBDA is a framework for training AI agents using NEAT. <br/>
-Specifically for training NEAT AI's playing Super Mario Land, but changing the project to work for similar GameBoy titles is possible. <br/>
+Specifically for training NEAT AI's playing <a href="https://www.emulatorgames.net/roms/gameboy/super-mario-land-jue-v11/" target="_blank">Super Mario Land</a>, but changing the project to work for similar GameBoy titles is possible. <br/>
 The framework utilizes the BizHawk emulator for running Super Mario Land, allowing for easy configuration and control of gameplay. <br/>
 Each genome from the population from the NEAT Algorithm is represented by a separate emulator instance. <br/>
 The framework leverages computer vision techniques and these emulator instances to efficiently extract data from the game screen for training the NEAT-based AI systems. <br/>
